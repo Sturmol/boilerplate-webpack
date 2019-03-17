@@ -1,20 +1,21 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate for compiling ES6+ apps to ES5",
   "main": "input.js",
   "scripts": {
-    "dev-server": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --progress --open --hot",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "Miguel Guelbenzu",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "live-server": "^1.2.0",
+    "babel-preset-env": "^1.7.1",
+    "babel-preset-stage-0": "^6.24.1",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3"
